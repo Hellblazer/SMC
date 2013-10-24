@@ -95,8 +95,7 @@ public final class SmcParser
         _targetLanguage = targetLanguage;
         _messages = new ArrayList<SmcMessage>();
         _lexer = new SmcLexer(istream, debugFlag);
-        _parserFSM = new SmcParserContext(this);
-        _parserFSM.setDebugFlag(debugFlag);
+        _parserFSM = new SmcParserContext(this); 
     } // end of SmcParser(...)
 
     //
