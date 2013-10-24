@@ -48,4 +48,4 @@ The SMC runtime has also been altered.  The original FSM context had a debug fla
 
 I have also removed the bean event support.  State push/pop support is now only generated when the declaration requires push/pop.
 
-Enjoy. 
+Enjoy.
